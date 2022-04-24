@@ -50,5 +50,6 @@ int main()
 		if (_kbhit()) { key = _getch(); }
 	}
 
+	std::cout << "\nЗавершение работы\n";
 	clear_memory(pFirst);
 }
